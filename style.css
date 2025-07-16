@@ -22,10 +22,10 @@ body {
 }
 
 .obj-width {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
 }
-
+/* Navbar Button*/
 #l-btn {
     margin-right: 10px;
     margin-left: 40px;
@@ -48,6 +48,14 @@ body {
     font-weight: 500;
     box-shadow: none;
     border: none;
+}
+#s-btn {
+    background-color: aquamarine;
+    color: #fff;
+    padding: 8px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Global CSS end */
@@ -89,6 +97,53 @@ header {
     display: none;
 }
 
+/* Slider section*/
+.slider{
+    background-color: #1f4140;
+}
+.left-side{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.l-side{
+    width: 40%;
+    color: #fff;
+}
+.l-side h1{
+    font-size: 2rem;
+}
+.l-side p{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.search{
+    position: relative;
+}
+.search input{
+    font-size: .9rem;
+    width: 100%;
+    height: 4rem;
+    border-radius: 30px;
+    padding: 0 20px;
+    border: none;
+
+}
+.search a{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+
+}
+.r-side{
+    width: 60%;
+}
+.r-side img{
+    width: 100%;
+    object-fit: cover;
+
+}
 @media (max-width: 699px) {
     #menu {
         background: #fff;
