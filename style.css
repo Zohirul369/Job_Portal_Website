@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+/* Global CSS */
+
+.sec-space {
+    padding: 4rem 0;
+}
+
+.extra-space {
+    padding-top: 8rem;
+}
+
+.obj-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#l-btn {
+    margin-right: 10px;
+    margin-left: 40px;
+    background-color: white;
+    color: #1f4140;
+    padding: 9px 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: none;
+    border: none;
+}
+
+#e-btn {
+    background-color: white;
+    color: #1f4140;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: none;
+    border: none;
+}
+
+/* Global CSS end */
+
+header {
+    background-color: #1f4140;
+}
+
+#navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+#navber .logo {
+    width: 40px;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+#menu li a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    font-weight: 500px;
+
+}
+
+#h-menu {
+    color: #fff;
+    display: none;
+}
+
+@media (max-width: 699px) {
+    #menu {
+        background: #eedfdf;
+        display: block;
+        width: 280px;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        padding: 30px 0;
+        box-shadow: 0px 2px 10 rgba(0, 0, 0, 0.2);
+
+    }
+
+    #menu li {
+        padding: 1rem;
+    }
+
+    #menu li a {
+        color: #1f4140;
+    }
+
+    #l-btn {
+        margin-top: 1rem;
+    }
+
+    #e-btn {
+        margin-left: 40px;
+        margin-top: 2rem;
+    }
+
+    #h-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+}
