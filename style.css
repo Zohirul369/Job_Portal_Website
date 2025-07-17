@@ -22,8 +22,12 @@ body {
 }
 
 .obj-width {
-    max-width: 1200px;
+    max-width: 1350px;
     margin: auto;
+}
+
+.logo {
+    width: 70px;
 }
 .py-5 {
   padding-top: 3rem !important;
@@ -85,6 +89,17 @@ body {
   gap: 0.5rem !important;
 }
 
+.s-btn {
+    background-color: aquamarine;
+    color: #fff;
+    padding: 8px 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+/* Global CSS end */
+
 /* Navbar Button*/
 #l-btn {
     margin-right: 10px;
@@ -109,17 +124,7 @@ body {
     box-shadow: none;
     border: none;
 }
-.s-btn {
-    background-color: aquamarine;
-    color: #fff;
-    padding: 8px 13px;
-    border-radius: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-}
 
-/* Global CSS end */
 
 header {
     background-color: #1f4140;
@@ -135,10 +140,6 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-}
-
-#navber .logo {
-    width: 40px;
 }
 
 #menu {
@@ -220,6 +221,26 @@ header {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+/* Footer section*/
+.footer{
+    background: #1f4140;
+    color: #fff;
+    padding: 4rem 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+
+}
+.top i{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: .5rem;
 }
 
 @media (max-width: 699px) {
