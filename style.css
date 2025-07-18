@@ -86,9 +86,6 @@ span {
     color: #1f4140;
 }
 
-
-
-
 .section-3 {
     background: #e8edf0;
 }
@@ -321,7 +318,6 @@ header {
     margin-left: 20px;
     font-size: 1.1rem;
     font-weight: 500px;
-
 }
 
 #h-menu {
@@ -344,7 +340,6 @@ header {
 .l-side {
     width: 40%;
     color: #fff;
-
 }
 
 .l-sub-side {
@@ -376,14 +371,12 @@ header {
     border-radius: 30px;
     padding: 0 20px;
     border: none;
-
 }
 
 .search a {
     position: absolute;
     top: 12px;
     right: 25%;
-
 }
 
 .r-side {
@@ -393,7 +386,6 @@ header {
 .r-side img {
     width: 100%;
     object-fit: cover;
-
 }
 
 /* Search section*/
@@ -459,13 +451,11 @@ header {
         border-radius: 13px;
         opacity: 0;
         transition: all 0.3s ease;
-
     }
 
     #menu.active {
         right: 10px;
         opacity: 1;
-
     }
 
     #menu li {
@@ -488,7 +478,6 @@ header {
         margin-top: 2rem;
         background-color: #1f4140;
         color: #fff;
-
     }
 
     #h-menu {
