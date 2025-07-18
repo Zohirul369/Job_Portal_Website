@@ -36,7 +36,7 @@ body {
 }
 
 span {
-  font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 .border-0 {
@@ -61,14 +61,15 @@ span {
     margin-right: calc(-0.5 * var(--bs-gutter-x));
     margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
-.row > * {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-top: var(--bs-gutter-y);
-  margin-bottom: 25px;
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+    margin-bottom: 25px;
 }
 
 .col-md-1 {
@@ -80,8 +81,9 @@ span {
     flex: 0 0 auto;
     width: 25%;
 }
+
 .find-font {
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #1f4140;
 }
@@ -95,8 +97,9 @@ span {
 }
 
 .bg-2 {
-  background: #F5F7FA;
+    background: #F5F7FA;
 }
+
 .find-font {
     font-weight: 600;
     font-size: 28px;
@@ -254,13 +257,15 @@ span {
 .pb-2 {
     padding-bottom: 0.5rem !important;
 }
+
 .mb-0 {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
-.pa{
+.pa {
     margin-top: 80px;
 }
+
 /* Global CSS end */
 
 /* Navbar Button*/
@@ -345,7 +350,8 @@ header {
 .l-sub-side {
     margin-left: 40px;
 }
-.find-job h1{
+
+.find-job h1 {
     font-size: 3rem;
     font-weight: 600;
     color: #ea1111;
