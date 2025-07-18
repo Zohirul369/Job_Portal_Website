@@ -558,7 +558,9 @@ ul {
     margin-right: 25px;
     border: 1px solid #F0F0F0;
 }
-
+.job_type{
+    margin-left: 5px;
+}
 .job-details .job_details_area .single_jobs .jobs_left .jobs_conetent {
     float: left;
 }
