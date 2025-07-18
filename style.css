@@ -253,7 +253,9 @@ span {
     flex: 0 0 auto;
     width: 25%;
 }
-
+.pb-1 {
+  padding-bottom: 3rem !important;
+}
 .pb-2 {
     padding-bottom: 0.5rem !important;
 }
@@ -436,6 +438,171 @@ header {
     font-size: 2rem;
     margin-left: .5rem;
 }
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.job-details .job_details_area .job_sumary .summery_header {
+    border-bottom: 1px solid #EAEAEA;
+    padding: 40px;
+}
+
+.job-details .job_details_area .job_sumary .summery_header h3 {
+    font-size: 24px;
+    color: #001D38;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.job-details .job_details_area .job_sumary .job_content {
+    padding: 40px;
+}
+
+.job-details .job_details_area .job_sumary .job_content ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #AAB1B7;
+    line-height: 38px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.job-details .job_details_area .job_sumary .job_content ul li::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #AAB1B7;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    left: 0;
+    content: '';
+    top: 16px;
+}
+
+.job-details .job_details_area .job_sumary .job_content ul li span {
+    color: #001D38;
+    font-size: 16px;
+}
+
+.job-details .job_details_area .descript_wrap {
+    padding: 40px;
+}
+
+.job-details .job_details_area .descript_wrap p {
+    color: #7A838B;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.job-details .job_details_area .descript_wrap .single_wrap {
+    margin-bottom: 30px;
+}
+
+.job-details .job_details_area .descript_wrap .single_wrap h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #001D38;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    text-transform: none;
+}
+
+.job-details .job_details_area .descript_wrap .single_wrap ul li {
+    font-size: 16px;
+    line-height: 32px;
+    color: #7A838B;
+    font-weight: 400;
+    position: relative;
+    padding-left: 25px;
+}
+
+.job-details .job_details_area .descript_wrap .single_wrap ul li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 7px;
+    height: 7px;
+    background: #7A838B;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    top: 12px;
+}
+
+.job-details .job_details_area .single_jobs {
+    padding: 30px;
+    border-bottom: 1px solid #EAEAEA;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.job-details .job_details_area .single_jobs .jobs_left .thumb {
+    float: left;
+    width: 82px;
+    height: 82px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+    background: #F5F7FA;
+    margin-right: 25px;
+    border: 1px solid #F0F0F0;
+}
+
+.job-details .job_details_area .single_jobs .jobs_left .jobs_conetent {
+    float: left;
+}
+
+.job-details .job_details_area .single_jobs .jobs_left .jobs_conetent .links_locat .location .job_type{
+    margin-right: 50px;
+}
+
+.job-details .job_details_area .single_jobs .jobs_left .jobs_conetent .links_locat .location p .job_type {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #AAB1B7;
+}
+
+.job-details .job_details_area .single_jobs .jobs_left .jobs_conetent h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    padding-bottom: 0;
+    text-transform: none;
+}
+
+.job-details .job_details_area .single_jobs .jobs_right .apply_now a.heart_mark {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #00D363;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    background: #EFFDF5;
+}
+
+.job-details .job_details_area .single_jobs .jobs_right .apply_now a.heart_mark:hover {
+    background: #00D363;
+    color: #fff;
+}
 
 @media (max-width: 1200px) {
     .obj-width {
@@ -492,4 +659,13 @@ header {
         font-size: 3rem;
         margin-right: 20px;
     }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
 }
