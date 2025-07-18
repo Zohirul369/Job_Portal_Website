@@ -34,6 +34,7 @@ body {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
 }
+
 span {
   font-size: 1.25em;
 }
@@ -96,9 +97,8 @@ span {
 }
 
 .bg-2 {
-    background-color: #fff;
+  background: #F5F7FA;
 }
-
 .find-font {
     font-weight: 600;
     font-size: 28px;
