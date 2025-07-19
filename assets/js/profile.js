@@ -120,3 +120,29 @@ function showUploadCV() {
     });
   }, 100);
 }
+
+// Show Change Password Form
+function showChangePassword() {
+  document.getElementById("contentArea").innerHTML = `
+    <div class="card border-0 shadow mb-4">
+      <div class="card-body p-4">
+        <h3 class="fs-4 mb-3">Change Password</h3>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Old Password*</label>
+            <input type="password" class="form-control" placeholder="Old Password">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">New Password*</label>
+            <input type="password" class="form-control" placeholder="New Password">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Confirm Password*</label>
+            <input type="password" class="form-control" placeholder="Confirm New Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+      </div>
+    </div>
+  `;
+}
