@@ -322,7 +322,8 @@ header {
 #menu li a {
     color: aliceblue;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
     font-size: 1.1rem;
     font-weight: 500px;
 }
