@@ -9,7 +9,7 @@ form.addEventListener('submit', function (e) {
   let userType = '';
   for (const role of roles) {
     if (role.checked) {
-      userType = role.value;
+      userType = role.value; // Keep value as-is (job_seeker / employer)
       break;
     }
   }
@@ -20,7 +20,7 @@ form.addEventListener('submit', function (e) {
   const confirmPassword = document.getElementById('confirm-password').value;
 
   // Validation
-  if (!name || !email || !password || !confirmPassword) {
+  if (!name || !email || !password || !confirmPassword || !userType) {
     result.innerHTML = `<div class="alert alert-danger">All fields are required.</div>`;
     return;
   }
