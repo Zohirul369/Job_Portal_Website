@@ -96,13 +96,34 @@
                 <div class="col-lg-9">
                     <div id="contentArea">
                         <div class="alert alert-info">
-                            <strong>Welcome!</strong> 
+                            <strong>Welcome!</strong>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Profile Picture Changing option -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Change Profile Picture</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="profilePicForm">
+                        <div class="mb-3">
+                            <label for="profilePic" class="form-label">Select a picture</label>
+                            <input type="file" class="form-control" id="profilePic" name="profilePic">
+                        </div>
+                        <button type="submit" class="btn btn-success">Upload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Footer Section Start-->
     <footer class="footer">
