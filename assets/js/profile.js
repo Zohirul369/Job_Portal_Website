@@ -162,6 +162,7 @@ function showAppliedJobs() {
                                 <th scope="col">Location</th>
                                 <th scope="col">Deadline</th>
                                 <th scope="col">Applicants</th>
+                                <th scope="col">Status</th>
                             </tr>
                         </thead>
                         <tbody class="border-0">
@@ -170,18 +171,21 @@ function showAppliedJobs() {
                                 <td>Gazipur</td>
                                 <td>30 July 2025</td>
                                 <td>130</td>
+                                <td>Active</td>
                             </tr>
                             <tr class="active">
                                 <td><div class="job-name fw-500">Web Developer</div></td>
                                 <td>Gazipur</td>
                                 <td>30 July 2025</td>
                                 <td>130</td>
+                                <td>Active</td>
                             </tr>
                             <tr class="active">
                                 <td><div class="job-name fw-500">Web Developer</div></td>
                                 <td>Gazipur</td>
                                 <td>30 July 2025</td>
                                 <td>130</td>
+                                <td>Active</td>
                             </tr>
                         </tbody>
                     </table>
