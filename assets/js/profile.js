@@ -146,3 +146,50 @@ function showChangePassword() {
     </div>
   `;
 }
+
+// Show Applied Jobs
+function showAppliedJobs() {
+  document.getElementById("contentArea").innerHTML = `
+     <div class="col-lg-12">
+        <div class="card border-0 shadow mb-4 p-3 w-100">
+            <div class="card-body card-form">
+                <h3 class="fs-4 mb-1">Jobs Applied</h3>
+                <div class="table-responsive">
+                    <table class="table w-100">
+                        <thead class="bg-light">
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Deadline</th>
+                                <th scope="col">Applicants</th>
+                            </tr>
+                        </thead>
+                        <tbody class="border-0">
+                            <tr class="active">
+                                <td><div class="job-name fw-500">Web Developer</div></td>
+                                <td>Gazipur</td>
+                                <td>30 July 2025</td>
+                                <td>130</td>
+                            </tr>
+                            <tr class="active">
+                                <td><div class="job-name fw-500">Web Developer</div></td>
+                                <td>Gazipur</td>
+                                <td>30 July 2025</td>
+                                <td>130</td>
+                            </tr>
+                            <tr class="active">
+                                <td><div class="job-name fw-500">Web Developer</div></td>
+                                <td>Gazipur</td>
+                                <td>30 July 2025</td>
+                                <td>130</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+  `;
+}
+
+
