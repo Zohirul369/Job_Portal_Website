@@ -321,7 +321,7 @@ header {
 
 /* Slider */
 .slider {
-  background-color: #1f4140;
+  background-color: #fff;
 }
 
 .left-side {
@@ -333,7 +333,7 @@ header {
 
 .l-side {
   width: 40%;
-  color: #fff;
+  color: #1f4140;
 }
 
 .l-sub-side {
