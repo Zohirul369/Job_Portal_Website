@@ -2,184 +2,156 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Hunts</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://instant.page/5.1.0" type="module" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Hunts</title>
 
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://instant.page/5.1.0" type="module" defer></script>
 </head>
 
 <body data-instant-intensity="mousedown">
-    <!--Header Section Start-->
-    <header>
-        <div id="navber" class="obj-width">
-            <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="A Company"></a>
+  <!-- Header -->
+  <header>
+    <div id="navber" class="obj-width d-flex justify-content-between align-items-center">
+      <a href="index.html">
+        <img class="logo" src="assets/images/logo.png" alt="A Company" />
+      </a>
+      <ul id="menu" class="d-flex gap-3 align-items-center m-0">
+        <li><a href="find-jobs.html">Find Jobs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="btn btn-outline-primary" href="login.html">Login</a></li>
+        <li><a class="btn btn-primary" href="post-job.html">Post a Job</a></li>
+      </ul>
+      <i id="h-menu" class="bx bx-menu"></i>
+    </div>
+  </header>
 
-            <ul id="menu">
-                <li><a href="find-jobs.html">Find Jobs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a class="btn btn-outline-primary me-2" href="login.html" type="submit">Login</a></li>
-                <li> <a class="btn btn-primary" href="post-job.html" type="submit">Post a Job</a></li>
-            </ul>
-            <i id="h-menu" class='bx bx-menu'></i>
-        </div>
-    </header>
-
-    <section class="job-details pa bg-2">
-        <div class="container job_details_area">
-            <div class="row pb-1">
-                <div class="col-md-8">
-                    <div class="card shadow border-0">
-                        <div class="job_details_header">
-                            <div class="single_jobs white-bg d-flex justify-content-between">
-                                <div class="jobs_left d-flex align-items-center">
-
-                                    <div class="jobs_conetent">
-                                        <a href="#">
-                                            <h4>Application Developer</h4>
-                                        </a>
-                                        <div class="links_locat d-flex align-items-center">
-                                            <div class="location">
-                                                <p> <i class="fa-solid fa-location-dot"></i> Gazipur, Dhaka, Bangladesh
-                                                </p>
-                                            </div>
-                                            <div class="job_type ">
-                                                <p> <i class="fa-solid fa-business-time"></i> Part-time</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="jobs_right">
-                                    <div class="apply_now">
-                                        <a class="heart_mark" href="#"> <i class="fa-regular fa-heart"
-                                                aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="descript_wrap white-bg">
-                            <div class="single_wrap">
-                                <h4>Job description</h4>
-                                <p>Design & architecture: Lead the development of scalable, maintainable Android apps
-                                    using modern architecture patterns (MVVM, Clean Architecture, multi-module). Full
-                                    development lifecycle: From translating UI/UX wireframes to writing clean, testable
-                                    code (Kotlin & Java), integrating with RESTful/GraphQL APIs, databases
-                                    (Room/SQLite), and deploying to Google Play. Performance & quality: Identify
-                                    bottlenecks, fix bugs, write unit/integration/UI tests (JUnit, Espresso, MockK).</p>
-                                <p>Team leadership: Mentor and review code of junior developers, participate in sprint
-                                    planning, estimations, and agile rituals. Cross-functional collaboration: Work
-                                    alongside product, design, backend, QA, architect, and DevOps teams to align
-                                    implementation with business goals. Adopting best practices: Stay updated with the
-                                    latest Android technologies (Jetpack Compose, Coroutines/Flow, DI frameworks), and
-                                    apply design patterns, clean code standards, and library choices thoughtfully.</p>
-                            </div>
-                            <div class="single_wrap">
-                                <h4>Responsibility</h4>
-                                <ul>
-                                    <li>We are expanding our App Development team and hiring for two roles:</li>
-                                    <li>2 Software Engineers for mid-level app development.</li>
-                                    <li>1 Senior Software Engineer for a more advanced role involving team leadership
-                                        and technical mentorship.</li>
-                                    <li>If you're passionate about building impactful mobile apps and want to grow with
-                                        a fast-paced, mission-driven company, we encourage you to apply.</li>
-                                </ul>
-                            </div>
-                            <div class="single_wrap">
-                                <h4>Qualifications</h4>
-                                <ul>
-                                    <li>Education: Bachelor’s or Master’s degree in Computer Science/Engineering or
-                                        related field</li>
-                                    <li>Experience: 5–8+ years in software engineering, with at least 4 years focused on
-                                        Android app development (Senior Software Engineer), 3–4+ years in software
-                                        engineering, with at least 1 years focused on Android app development (Software
-                                        Engineer).</li>
-                                    <li>Technical: Proficient in Kotlin and Java, Android SDK, Jetpack libraries,
-                                        Coroutine/Flow, Hilt/Dagger, Retrofit, Room, Compose.</li>
-                                    <li>Tools & workflows: Experience with Git, Android Studio, Gradle, ADB, logcat,
-                                        code reviews.</li>
-                                </ul>
-                            </div>
-                            <div class="single_wrap">
-                                <h4>Benefits</h4>
-                                <ul>
-                                    <li>Salary Review: Yearly</li>
-                                    <li>Festival Bonus: 2</li>
-                                    <li>Group Insurance</li>
-                                    <li>Medical Benefits</li>
-                                    <li>Weekly Holidays: 2 (Friday & Saturday)</li>
-                                </ul>
-
-                            </div>
-                            <div class="border-bottom"></div>
-                            <div class="pt-3 text-end">
-                                <a href="#" class="btn btn-secondary">Save</a>
-                                <a href="#" class="btn btn-primary">Apply</a>
-                            </div>
-                        </div>
-                    </div>
+  <!-- Job Details Section -->
+  <section class="job-details pa bg-2 py-5">
+    <div class="container job_details_area">
+      <div class="row g-4">
+        <!-- Left Column -->
+        <div class="col-md-8">
+          <div class="card shadow border-0">
+            <div class="job_details_header p-4">
+              <div class="d-flex justify-content-between align-items-start">
+                <div class="jobs_conetent">
+                  <h4><a href="#">Application Developer</a></h4>
+                  <div class="d-flex gap-3 text-muted small mt-2">
+                    <span><i class="fa-solid fa-location-dot me-1"></i> Gazipur, Dhaka</span>
+                    <span><i class="fa-solid fa-business-time me-1"></i> Part-time</span>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow border-0">
-                        <div class="job_sumary">
-                            <div class="summery_header pb-1 pt-4">
-                                <h3>Job Summery</h3>
-                            </div>
-                            <div class="job_content pt-3">
-                                <ul>
-                                    <li>Deadline: <span>28 july, 2025</span></li>
-                                    <li>Vacancy: <span>2 Position</span></li>
-                                    <li>Salary: <span>50000-70000</span></li>
-                                    <li>Location: <span>Gazipur, Dhaka, Bangladesh</span></li>
-                                    <li>Job Type: <span> Full-time</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card shadow border-0 my-4">
-                        <div class="job_sumary">
-                            <div class="summery_header pb-1 pt-4">
-                                <h3>Company Details</h3>
-                            </div>
-                            <div class="job_content pt-3">
-                                <ul>
-                                    <li>Name: <span>Tech World</span></li>
-                                    <li>Locaion: <span>Gazipur</span></li>
-                                    <li>Webite: <span>www.techworld.com</span></li>
-                                    <li>Gmail: <span>techworld@gmail.com</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <a class="text-danger fs-4" href="#"><i class="fa-regular fa-heart"></i></a>
+              </div>
             </div>
-        </div>
-    </section>
 
-    <!--Footer Section Start-->
+            <div class="descript_wrap white-bg p-4">
+              <div class="single_wrap mb-4">
+                <h4>Title</h4>
+                <ul>
+                  <li>Full Stack Developer</li>
+                </ul>
+              </div>
+              <div class="single_wrap mb-4">
+                <h4>Job Description</h4>
+                <ul>
+                  <li>Design & architecture: Lead the development of scalable, maintainable Android apps using modern architecture patterns (MVVM, Clean Architecture, multi-module).</li>
+                  <li>Team leadership: Mentor and review code of junior developers, participate in sprint planning and agile ceremonies.</li>
+                </ul>
+              </div>
 
-    <footer class="footer">
-        <div class="obj-width">
-            <div class="top">
-                <div>
-                    <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="A Company"></a>
-                    <p>Your dream is here</p>
-                </div>
-                <div>
-                    <a href="https://www.facebook.com/"><i class='bx bxl-facebook-square'></i></a>
-                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
-                    <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
-                    <a href="https://www.twitter.com/"><i class='bx bxl-twitter'></i></a>
-                </div>
+              <div class="single_wrap mb-4">
+                <h4>Responsibility</h4>
+                <ul>
+                  <li>We are expanding our App Development team and hiring for two roles:</li>
+                  <li>2 Software Engineers for mid-level app development.</li>
+                  <li>1 Senior Software Engineer for leadership and mentoring.</li>
+                </ul>
+              </div>
+
+              <div class="single_wrap mb-4">
+                <h4>Qualifications</h4>
+                <ul>
+                  <li>Education: BSc/MSc in CSE or relevant field</li>
+                  <li>Experience: 3–8+ years in software engineering, focused on Android</li>
+                  <li>Technical: Kotlin, Java, Jetpack, Room, Compose, etc.</li>
+                </ul>
+              </div>
+
+              <div class="single_wrap mb-4">
+                <h4>Benefits</h4>
+                <ul>
+                  <li>Salary Review: Yearly</li>
+                  <li>Festival Bonus: 2</li>
+                  <li>Group Insurance & Medical</li>
+                  <li>Weekly Holidays: Friday & Saturday</li>
+                </ul>
+              </div>
+
+              <div class="text-end pt-3 border-top">
+                <a href="#" class="btn btn-secondary me-2">Save</a>
+                <a href="#" class="btn btn-primary">Apply</a>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
-    <!--Footer Section Close-->
 
-    <script src="toggle.js"></script>
+        <!-- Right Column (Sidebar) -->
+        <div class="col-md-4">
+          <div class="card shadow border-0 mb-4">
+            <div class="p-4">
+              <h4 class="mb-3">Job Summary</h4>
+              <ul class="">
+                <li>Deadline: <strong>28 July, 2025</strong></li>
+                <li>Vacancy: <strong>2 Positions</strong></li>
+                <li>Salary: <strong>50,000 - 70,000</strong></li>
+                <li>Location: <strong>Gazipur, Dhaka</strong></li>
+                <li>Job Type: <strong>Full-time</strong></li>
+                <li>Vacancy <strong>2</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card shadow border-0">
+            <div class="p-4">
+              <h4 class="mb-3">Company Details</h4>
+              <ul class="">
+                <li>Name: <strong>Tech World</strong></li>
+                <li>Location: <strong>Gazipur</strong></li>
+                <li>Website: <strong><a href="#">www.techworld.com</a></strong></li>
+                <li>Email: <strong><a href="mailto:techworld@gmail.com">techworld@gmail.com</a></strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 bg-dark text-white">
+    <div class="obj-width d-flex justify-content-between align-items-center flex-wrap px-4">
+      <div>
+        <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="A Company" /></a>
+        <p class="m-0">Your dream is here</p>
+      </div>
+      <div class="social-icons d-flex gap-3">
+        <a href="https://www.facebook.com/" class="text-white fs-4"><i class="bx bxl-facebook-square"></i></a>
+        <a href="https://www.instagram.com/" class="text-white fs-4"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="text-white fs-4"><i class="bx bxl-youtube"></i></a>
+        <a href="https://www.twitter.com/" class="text-white fs-4"><i class="bx bxl-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="toggle.js"></script>
 </body>
 
 </html>
